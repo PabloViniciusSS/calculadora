@@ -96,7 +96,7 @@ export default class Calculator extends Component {
     return (
       <div className="calculator">
         <Display tela={this.state.displayValue} />
-        <Button label="AC" click={this.clearMemory} double />
+        <Button label="AC" click={this.clearMemory} triplo />
         <Button label="/" click={this.setOperator} operation />
         <Button label="7" click={this.addDigit} />
         <Button label="8" click={this.addDigit} />
